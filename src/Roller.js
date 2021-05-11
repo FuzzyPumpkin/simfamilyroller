@@ -30,7 +30,6 @@ function Roller({packs, householdFundsLimits, simCountLimits}) {
 
   const rollOptions = () => {
     let familySimList = [];
-    console.log(familySize);
     let randFamilySize = aspectFinder(familySize);
     let upperFundsLimit = householdFundsLimits[1]-householdFundsLimits[0];
     familySimList.push(addSim(aspectFinder(firstSimAges)));

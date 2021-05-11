@@ -498,9 +498,10 @@ b {
 }
 
 .App {
-  background-image: url("https://fuzzypumpkin.github.io/fiftytwo/makeasim/public/images/PlumbobBg.png");
+  background-image: url("https://fuzzypumpkin.github.io/simfamilyroller/public/images/PlumbobBg.png");
   background-repeat: no-repeat;
   background-position: left top;
+  background-size: cover;
   height: 100%;
 }
 

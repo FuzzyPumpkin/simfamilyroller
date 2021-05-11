@@ -33,7 +33,7 @@ function App() {
 
   return (
     <div className="App">
-      <button type="button" className="App__button" onClick={() => setShowOptions(!showOptions)}>
+      <button type="button" aria-label="options" className="App__button" onClick={() => setShowOptions(!showOptions)}>
         <svg className={!showOptions ? "App__button__icon": "App__button__icon App__button__icon--blue"}>
 		      <use xlinkHref="./images/symbol-defs.svg#icon-settings"></use>
 	      </svg>
