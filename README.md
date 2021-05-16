@@ -1,4 +1,4 @@
-#Sims4FamilyRoller
+# Sims4FamilyRoller
 a randomizing program for household creation in The Sims 4
 
 This app was built in React and saves expansion/game/stuff pack settings to local storage so that users can filter the results they get by their available options in-game. It also includes options for controlling family size and fund upper and lower limits. While there are many roller programs out there for individual sims, I had not found one that would do an entire household in one go. 
