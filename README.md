@@ -1,68 +1,34 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#Sims4FamilyRoller
+a randomizing program for household creation in The Sims 4
 
-## Available Scripts
+This app was built in React and saves expansion/game/stuff pack settings to local storage so that users can filter the results they get by their available options in-game. It also includes options for controlling family size and fund upper and lower limits. While there are many roller programs out there for individual sims, I had not found one that would do an entire household in one go. 
 
-In the project directory, you can run:
+Sims4FamilyRoller was created using functional components only and one reusable hook I've traded between projects. It utilizes several dictionary files for options like traits and careers. Text in the program is conditional based on the sex of the sim rolled.
 
-### `npm start`
+This app was created to fill a personal need as well as a request by a couple of social groups I am in and has an established audience actively using it and contributing suggestions.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Technologies Utilized for Sims 4 Family Roller
+* React
+* Sass
+* JavaScript
+* HTML
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To use the app/site, simply visit https://keen-aryabhata-a7a0b6.netlify.app/. If you would like to download the code and run it on your development environment, you can either fork the repo or click on "Clone or Download" and download as a .zip file. Open the extracted folder in the code editor of your choice. Open a terminal window in your code editor, or use the command prompt while accessing the extracted folder, and type:
+```
+npm install
+```
+To run the app in your local server, type:
+```
+npm start
+```
+## Contributors
+I, Kari Minger (aka FuzzyPumpkin) am the sole contributor to this project.
 
-### `npm run build`
+## License
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Sims4FamilyRoller is Copyright (c) 2021 Kari Minger.
+This project is licensed under the MIT License
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
