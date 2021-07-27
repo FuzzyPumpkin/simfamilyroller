@@ -31,6 +31,7 @@ const careers = [
     {career: "Freelancer: Maker", expansion: "EL"},
     {career: "Gardener: Botanist", expansion: "SEA"},
     {career: "Gardener: Floral Designer", expansion: "SEA"},
+    {career: "Interior Decorator", expansion: "DD"},
     {career: "Law: Judge", expansion: "DU"},
     {career: "Law: Private Attorney", expansion: "DU"},
     {career: "Military: Officer", expansion: "SV"},

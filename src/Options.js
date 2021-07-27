@@ -22,7 +22,7 @@ function Options({togglePack, packs, showOptions, householdFundsLimits, changeFu
                 <OptionsButton packType={gp} packs={packs} togglePack={togglePack} key={gp.name}/>
               ))}
         </div>
-        <h2>Stuff Packs</h2>
+        <h2>Stuff Packs/Kits</h2>
         <div className="options__packList">
             {stuffPacks.map(sp => (
                 <OptionsButton packType={sp} packs={packs} togglePack={togglePack} key={sp.name}/>

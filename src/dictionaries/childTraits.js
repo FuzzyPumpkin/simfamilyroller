@@ -1,5 +1,6 @@
 const childTraits = [
     {trait: "active", conflicts: ["lazy"], expansion: ""},
+    {trait: "animal enthusiast", conflicts: [], expansion: "CoL"},
     {trait: "art lover", conflicts: [], expansion: ""},
     {trait: "bookworm", conflicts: [], expansion: ""},
     {trait: "cat lover", conflicts: [], expansion: "CD"},
@@ -20,6 +21,7 @@ const childTraits = [
     {trait: "hot-headed", conflicts: ["cheerful", "gloomy"], expansion: ""},
     {trait: "insider", conflicts: [], expansion: "GT"},
     {trait: "kleptomaniac", conflicts: [], expansion: ""},
+    {trait: "lactose intolerant", conflicts: [], expansion: "CoL"},
     {trait: "lazy", conflicts: ["neat", "active", "ambitious"], expansion: ""},
     {trait: "loner", conflicts: ["outgoing"], expansion: ""},
     {trait: "loves outdoors", conflicts: ["squeamish"], expansion: ""},
